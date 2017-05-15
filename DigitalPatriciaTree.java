@@ -1,3 +1,6 @@
+public class DigitalPatriciaTree
+{
+
 *====================================NODE===============================================*/
 	public class patriciaNode
 	{
