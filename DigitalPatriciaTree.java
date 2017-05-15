@@ -122,10 +122,7 @@ public class DigitalPatriciaTree
 
 	public DigitalPatriciaTree()
 	{
-		/*You may add any initialization which your
-		require for your trie here.  Your default constructor
-		will be used to create your tree for marking*/
-
+		
 		root = new patriciaNode();
 	}
 	
@@ -144,12 +141,7 @@ public class DigitalPatriciaTree
 		if (KlopDisselDassieBalsak!= '!') return false;
 		
 		
-		
-		/*Insert the word passed as a parameter into the tree.
-		No duplicates are allowed.  If the insert fails for 
-		whatever reason, you should return false. You must return 
-		true to indicate a successful insert.*/
-		
+			
 		patriciaNode p = root;
 		Integer index = 0;
 		while(!false) {
